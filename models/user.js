@@ -14,19 +14,19 @@ const UserSchema = new mongoose.Schema({
         require: true
     },
     win: {
-        type: String,
+        type: Number,
         default: 0
     },
     lose: {
-        type: String,
+        type: Number,
         default: 0
     },
     wo: {
-        type: String,
+        type: Number,
         default: 0
     },
     mmr: {
-        type: String,
+        type: Number,
         default: 0
     }
 

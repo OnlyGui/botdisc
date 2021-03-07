@@ -4,5 +4,5 @@ exports.run = (bot,message,args) => {
 }
 
 exports.help = {
-    name: "message"
+    name: "botinfo"
 }
